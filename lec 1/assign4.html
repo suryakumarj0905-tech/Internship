@@ -7,39 +7,61 @@
 
 <style>
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    font-family: Georgia, serif;
-    max-width: 1000px;
-    margin: auto;
-    padding: 30px;
-    color: #000;
-    background: #fff;
-    line-height: 1.6;
+    font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+    max-width:900px;
+    margin:40px auto;
+    padding:40px;
+    background:#ffffff;
+    color:#000;
+    line-height:1.7;
 }
 
 .header{
     text-align:center;
+    padding-bottom:20px;
+    margin-bottom:30px;
 }
 
 .header h1{
-    font-size:55px;
+    font-size:42px;
+    font-weight:700;
+    letter-spacing:1px;
     margin-bottom:10px;
 }
 
 .contact{
-    font-size:18px;
-    margin-bottom:20px;
+    font-size:15px;
+}
+
+.contact a{
+    color:#000;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.contact a:hover{
+    text-decoration:underline;
 }
 
 .section{
-    margin-top:35px;
+    margin-top:30px;
 }
 
 .section h2{
-    font-size:36px;
-    border-bottom:2px solid black;
+    font-size:22px;
+    font-weight:700;
+    border-bottom:1px solid #000;
     padding-bottom:5px;
     margin-bottom:15px;
+    text-transform:uppercase;
+    letter-spacing:1px;
 }
 
 ul{
@@ -55,19 +77,20 @@ li{
 }
 
 .project h3{
-    margin-bottom:5px;
-}
-
-.education-item{
-    margin-bottom:15px;
+    font-size:18px;
+    margin-bottom:8px;
 }
 
 .bold{
     font-weight:bold;
 }
 
+p{
+    text-align:justify;
+}
+
 .declaration{
-    margin-top:40px;
+    margin-top:35px;
 }
 
 </style>
@@ -80,31 +103,44 @@ li{
     <h1>Suryakumar J</h1>
 
     <div class="contact">
-        📧 suryakumarj0905@example.com |
+        📧 suryakumarj0905@gmail.com |
         📞 6385653144 |
         📍 Chennai, Tamil Nadu
+        <br><br>
+
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/suryakumar-j-5a6b37370" target="_blank">
+            linkedin.com/in/suryakumar-j-5a6b37370
+        </a>
+
+        <br>
+
+        GitHub:
+        <a href="https://github.com/suryakumarj0905-tech" target="_blank">
+            github.com/suryakumarj0905-tech
+        </a>
     </div>
 
 </div>
 
-
 <div class="section">
+
     <h2>Education</h2>
 
     <ul>
 
         <li>
-            <span class="bold">B.Sc Computer Science</span>,
+            <span class="bold">B.Sc Computer Science</span> -
             Government Arts and Science College (2025) - 85%
         </li>
 
         <li>
-            <span class="bold">Higher Secondary (HSC)</span>,
+            <span class="bold">Higher Secondary (HSC)</span> -
             Government Higher Secondary School (2022) - 90%
         </li>
 
         <li>
-            <span class="bold">SSLC</span>,
+            <span class="bold">SSLC</span> -
             Christhuraja Higher Secondary School (2020) - 88%
         </li>
 
@@ -112,30 +148,28 @@ li{
 
 </div>
 
-
 <div class="section">
-    <h2>Profile Summary</h2>
 
-    <p>
-        Enthusiastic and quick-learning Computer Science graduate
-        with knowledge of HTML, CSS, Java, Python, MySQL,
-        Power BI and Tableau. Interested in Web Development,
-        Data Analytics and Software Development. Strong problem-solving
-        ability with a passion for learning emerging technologies.
-    </p>
-
-</div>
-
-<div class="section">
     <h2>Projects</h2>
 
     <div class="project">
 
-        <h3>Travel Itinerary Planner</h3>
+        <h3>Doctor Appointment Scheduler</h3>
 
         <ul>
-            <li>Developed a system for planning and organizing travel schedules.</li>
-            <li>Improved trip management and itinerary tracking.</li>
+            <li>Designed a system to manage doctor appointments efficiently.</li>
+            <li>Enabled appointment booking, scheduling and patient management.</li>
+        </ul>
+
+    </div>
+
+    <div class="project">
+
+        <h3>Parking Slot Booking System</h3>
+
+        <ul>
+            <li>Developed a platform to reserve parking slots online.</li>
+            <li>Improved parking management and slot availability tracking.</li>
         </ul>
 
     </div>
@@ -145,25 +179,13 @@ li{
         <h3>Resume Builder</h3>
 
         <ul>
-            <li>Designed a web-based application to create professional resumes.</li>
-            <li>Implemented user-friendly resume generation features.</li>
-        </ul>
-
-    </div>
-
-    <div class="project">
-
-        <h3>Workflow Management System</h3>
-
-        <ul>
-            <li>Created a system to streamline task assignment and monitoring.</li>
-            <li>Enhanced productivity through workflow automation.</li>
+            <li>Created a web-based application for generating professional resumes.</li>
+            <li>Implemented easy-to-use resume creation and formatting features.</li>
         </ul>
 
     </div>
 
 </div>
-
 
 <div class="section">
 
@@ -171,20 +193,21 @@ li{
 
     <ul>
 
-        <li><b>Programming:</b> Java, Python, C++</li>
+        <li><b>Programming Languages:</b> Java, Python, C++</li>
 
-        <li><b>Web Development:</b> HTML, CSS</li>
+        <li><b>Web Technologies:</b> HTML, CSS</li>
 
-        <li><b>Databases:</b> MySQL Basics</li>
+        <li><b>Database:</b> MySQL</li>
 
-        <li><b>Analytics Tools:</b> Power BI, Tableau</li>
+        <li><b>Data Analytics Tools:</b> Power BI, Tableau</li>
 
-        <li><b>Other:</b> Problem Solving, Prompt Engineering</li>
+        <li><b>Soft Skills:</b> Problem Solving, Communication, Teamwork</li>
+
+        <li><b>Other:</b> Prompt Engineering</li>
 
     </ul>
 
 </div>
-
 
 <div class="section">
 
@@ -207,82 +230,31 @@ li{
 
 <div class="section">
 
-    <h2>Achievements</h2>
-
-    <ul>
-
-        <li>Completed multiple academic mini projects.</li>
-
-        <li>Participated in coding competitions.</li>
-
-        <li>Active learner in AI and Web Technologies.</li>
-
-    </ul>
-
-</div>
-
-
-<div class="section">
-
-    <h2>Languages Known</h2>
-
-    <ul>
-
-        <li>Tamil</li>
-
-        <li>English</li>
-
-    </ul>
-
-</div>
-
-
-<div class="section">
-
-    <h2>Hobbies & Interests</h2>
-
-    <ul>
-
-        <li>Reading Technology Blogs</li>
-
-        <li>Learning New Programming Languages</li>
-
-        <li>Content Creation</li>
-
-        <li>Playing Cricket</li>
-
-    </ul>
-
-</div>
-
-
-
-<div class="section">
-
     <h2>Strengths</h2>
 
     <ul>
 
         <li>Quick Learner</li>
 
-        <li>Team Player</li>
+        <li>Problem Solving Ability</li>
 
         <li>Adaptability</li>
 
-        <li>Problem Solving</li>
+        <li>Team Collaboration</li>
+
+        <li>Time Management</li>
 
     </ul>
 
 </div>
-
 
 <div class="section declaration">
 
     <h2>Declaration</h2>
 
     <p>
-        I hereby declare that all the information provided above
-        is true and correct to the best of my knowledge and belief.
+        I hereby declare that the information provided above is true
+        and correct to the best of my knowledge and belief.
     </p>
 
 </div>
