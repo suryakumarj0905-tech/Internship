@@ -1,192 +1,289 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Resume - Suryakumar J</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suryakumar J - Resume</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-        }
+<style>
 
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-        }
+body{
+    font-family: Georgia, serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    color: #000;
+    background: #fff;
+    line-height: 1.6;
+}
 
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
+.header{
+    text-align:center;
+}
 
-        h2 {
-            color: #0077b6;
-            border-bottom: 2px solid #0077b6;
-            padding-bottom: 5px;
-        }
+.header h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
+.contact{
+    font-size:18px;
+    margin-bottom:20px;
+}
 
-        table, th, td {
-            border: 1px solid #000;
-        }
+.section{
+    margin-top:35px;
+}
 
-        th {
-            background-color: #0077b6;
-            color: white;
-        }
+.section h2{
+    font-size:36px;
+    border-bottom:2px solid black;
+    padding-bottom:5px;
+    margin-bottom:15px;
+}
 
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
+ul{
+    margin-left:20px;
+}
 
-        ul {
-            padding-left: 20px;
-        }
+li{
+    margin-bottom:8px;
+}
 
-        .contact {
-            text-align: center;
-        }
-    </style>
+.project{
+    margin-bottom:20px;
+}
+
+.project h3{
+    margin-bottom:5px;
+}
+
+.education-item{
+    margin-bottom:15px;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.declaration{
+    margin-top:40px;
+}
+
+</style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="header">
 
     <h1>Suryakumar J</h1>
 
     <div class="contact">
-        <p>
-            Email: suryakumarj0905@example.com |
-            Phone: 6385653144 |
-            Chennai, Tamil Nadu
-        </p>
+        📧 suryakumarj0905@example.com |
+        📞 6385653144 |
+        📍 Chennai, Tamil Nadu
     </div>
 
-    <hr>
+</div>
 
-    <h2>Career Objective</h2>
-    <p>
-        Motivated Computer Science graduate seeking an opportunity
-        to apply technical skills, gain practical experience,
-        and contribute effectively to organizational success.
-    </p>
 
-    <h2>Profile Summary</h2>
-    <p>
-        Enthusiastic and quick-learning Computer Science student with
-        knowledge of HTML, CSS, Python, Power BI, Tableau, and MySQL basics. 
-        Interested in Web Development and Data Analytics, with a strong foundation in programming and problem-solving skills.
-    </p>
-
+<div class="section">
     <h2>Education</h2>
 
-    <table>
-        <tr>
-            <th>Qualification</th>
-            <th>Institution</th>
-            <th>Year</th>
-            <th>Percentage</th>
-        </tr>
-
-        <tr>
-            <td>B.Sc Computer Science</td>
-            <td>Government Arts and Science College</td>
-            <td>2025</td>
-            <td>85%</td>
-        </tr>
-
-        <tr>
-            <td>HSC</td>
-            <td>Government Higher Secondary School</td>
-            <td>2022</td>
-            <td>90%</td>
-        </tr>
-
-        <tr>
-            <td>SSLC</td>
-            <td>Christhuraja Higher Secondary School</td>
-            <td>2020</td>
-            <td>88%</td>
-        </tr>
-
-    </table>
-
-    <h2>Technical Skills</h2>
-
     <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Java</li>
-        <li>C++</li>
-        <li>Python</li>
-        <li>MySQL Basics</li>
+
+        <li>
+            <span class="bold">B.Sc Computer Science</span>,
+            Government Arts and Science College (2025) - 85%
+        </li>
+
+        <li>
+            <span class="bold">Higher Secondary (HSC)</span>,
+            Government Higher Secondary School (2022) - 90%
+        </li>
+
+        <li>
+            <span class="bold">SSLC</span>,
+            Christhuraja Higher Secondary School (2020) - 88%
+        </li>
+
     </ul>
 
+</div>
+
+
+<div class="section">
+    <h2>Profile Summary</h2>
+
+    <p>
+        Enthusiastic and quick-learning Computer Science graduate
+        with knowledge of HTML, CSS, Java, Python, MySQL,
+        Power BI and Tableau. Interested in Web Development,
+        Data Analytics and Software Development. Strong problem-solving
+        ability with a passion for learning emerging technologies.
+    </p>
+
+</div>
+
+<div class="section">
     <h2>Projects</h2>
 
-    <ol>
-        <li>Travel Itinerary Planner</li>
-        <li>Resume Builder</li>
-        <li>Workflow Management System</li>
-    </ol>
+    <div class="project">
+
+        <h3>Travel Itinerary Planner</h3>
+
+        <ul>
+            <li>Developed a system for planning and organizing travel schedules.</li>
+            <li>Improved trip management and itinerary tracking.</li>
+        </ul>
+
+    </div>
+
+    <div class="project">
+
+        <h3>Resume Builder</h3>
+
+        <ul>
+            <li>Designed a web-based application to create professional resumes.</li>
+            <li>Implemented user-friendly resume generation features.</li>
+        </ul>
+
+    </div>
+
+    <div class="project">
+
+        <h3>Workflow Management System</h3>
+
+        <ul>
+            <li>Created a system to streamline task assignment and monitoring.</li>
+            <li>Enhanced productivity through workflow automation.</li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="section">
+
+    <h2>Skills</h2>
+
+    <ul>
+
+        <li><b>Programming:</b> Java, Python, C++</li>
+
+        <li><b>Web Development:</b> HTML, CSS</li>
+
+        <li><b>Databases:</b> MySQL Basics</li>
+
+        <li><b>Analytics Tools:</b> Power BI, Tableau</li>
+
+        <li><b>Other:</b> Problem Solving, Prompt Engineering</li>
+
+    </ul>
+
+</div>
+
+
+<div class="section">
 
     <h2>Certifications</h2>
 
     <ul>
-        <li>Excel using AI</li>
-        <li>Data analytics</li>
-        <li>Python Fullstack</li>
-        <li>Prompt Engineering </li>
+
+        <li>Excel Using AI</li>
+
+        <li>Data Analytics</li>
+
+        <li>Python Full Stack Development</li>
+
+        <li>Prompt Engineering</li>
+
     </ul>
+
+</div>
+
+
+<div class="section">
 
     <h2>Achievements</h2>
 
     <ul>
+
         <li>Completed multiple academic mini projects.</li>
+
         <li>Participated in coding competitions.</li>
+
         <li>Active learner in AI and Web Technologies.</li>
+
     </ul>
+
+</div>
+
+
+<div class="section">
 
     <h2>Languages Known</h2>
 
     <ul>
-        <li>English</li>
+
         <li>Tamil</li>
+
+        <li>English</li>
+
     </ul>
 
-    <h2>Strengths</h2>
+</div>
 
-    <ul>
-        <li>Quick Learner</li>
-        <li>Team Player</li>
-        <li>Problem Solving</li>
-        <li>Adaptability</li>
-    </ul>
+
+<div class="section">
 
     <h2>Hobbies & Interests</h2>
 
     <ul>
+
         <li>Reading Technology Blogs</li>
+
         <li>Learning New Programming Languages</li>
+
         <li>Content Creation</li>
+
         <li>Playing Cricket</li>
+
     </ul>
 
-    <h2>Contact Information</h2>
+</div>
 
-    <p><strong>Email:</strong> suryakumarj0905@example.com</p>
-    <p><strong>Phone:</strong> 6385653144</p>
-    <p><strong>Location:</strong> Chennai, Tamil Nadu</p>
+
+
+<div class="section">
+
+    <h2>Strengths</h2>
+
+    <ul>
+
+        <li>Quick Learner</li>
+
+        <li>Team Player</li>
+
+        <li>Adaptability</li>
+
+        <li>Problem Solving</li>
+
+    </ul>
+
+</div>
+
+
+<div class="section declaration">
+
+    <h2>Declaration</h2>
+
+    <p>
+        I hereby declare that all the information provided above
+        is true and correct to the best of my knowledge and belief.
+    </p>
 
 </div>
 
