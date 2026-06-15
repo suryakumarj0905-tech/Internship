@@ -1,171 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Travel Blog </title>
-
+    <title>Travel Blog</title>
     <style>
-        body,div{
-            background-color: azure;
-            background-size:cover;
-            font-style: italic;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: center;
-            
-        }
-        div{
-            border-image-width: 50px;
-            border-style: none;
-            text-align: center;
-        }
-
-        h1{
-            color:maroon;
-            text-align:center;
-            font-size: 38px;
-    
-        }
-
-        h2{
-            color:darkslateblue;
-            font-size: 30px;
-            text-align: center;
-
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            background:#f4f4f4;
         }
 
         nav{
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: 30px;
-            text-align: center;
+            background:#008080;
+            padding:15px;
+            text-align:center;
         }
 
-        p{
-            color:darkgreen;
-            font-size: 20px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-style: italic;
-            text-align: center;
-
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
         }
 
-         pre{color:darkgoldenrod;
-            font-size: 20px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-style: italic;
-            text-align: center;
-         }
-
-        ul,ol{
-            color: darkgreen;
-            font-size: 20px;
-            text-align: center;
-        
+        section{
+            padding:40px;
         }
 
-       
+        h1,h2{
+            text-align:center;
+            color:#006666;
+        }
+
+        .card{
+            background:white;
+            margin:15px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 5px gray;
+        }
+
+        .gallery{
+            text-align:center;
+        }
+
+        .gallery img{
+            width:250px;
+            height:180px;
+            margin:10px;
+            border-radius:10px;
+        }
+
+        .contact{
+            text-align:center;
+            background:#e0f7fa;
+        }
+
+        footer{
+            background:#008080;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
+<nav>
+    <a href="#home">Home</a>
+    <a href="#top">Places</a>
+    <a href="#places">Top Places to visit</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <h1><u>My Travel Blog</u></h1>
-    <pre>"Travel far enough, you meet yourself."<br>
-                                     – David Mitchell</pre>                              
-        <br>
-        <br>
+<section id="home">
+    <h1>Welcome to My Travel Blog</h1>
+    <p style="text-align:center;">
+        Travelling helps us explore new places, cultures and experiences.
+        This blog shares some of the most beautiful tourist destinations
+        around the world.
+    </p>
+</section>
 
+<section id="places">
+    <h2>Famous Places and Reasons</h2>
 
-        <nav>
-            <a href="beach.avif">Home </a>
-            <a href="Places.jpg">Places</a>
-            <a href="dubai.jpg">Gallery</a>
-            <a href="contact.png">Contact</a>
-        </nav>
-        
-        <br>
-        <br>
-        <br>
-
-
-     <h2><u>Welcome</u></h2>
-        <pre>
-            Traveling helps us explore new places and create beautiful memories.
-        </pre>
-
-        
-
-    <div>
-            <h2><u>Paris</u></h2>
-            <img src="Paris.jpg" width="300" height="200">
-            <pre>Paris is famous for the Eiffel Tower.</pre>
-        </div>
-
-        <div>
-            <h2><u>Dubai</u></h2>
-            <img src="dubai.jpg" width="300" height="200">
-            <p>Dubai is famous for the Burj Khalifa.</p>
-        </div>
-
-        <div>
-            <h2><u>Maldives</u></h2>
-            <img src="maldives.jpg" width="300" height="200">
-            <pre>Maldives offers the ultimate tropical beach escape, famous for its private overwater villas, 
-               crystal-clear turquoise lagoons, and world-class scuba diving.</pre>
-        </div>
-
-
-        <div>
-            <h2><u>Switzerland</u></h2>
-            <img src="switz.jpg" width="300" height="200">
-            <pre>Switzerland delivers a majestic alpine retreat, renowned for its snow-capped peaks, 
-                pristine lakes, charming mountain villages, and scenic train journeys..</pre>
-        </div>
-
-        <div class="gallery">
-            <h2><u>Travel Gallery</u></h2>
-
-            <img src="beach.avif" width="200" height="150">
-            <img src="mountain.jpg" width="200" height="150">
-            <img src="waterfall.jpg" width="200" height="150">
-        </div>
-
-        <div>
-            <h2><u>Travel Quotes</u></h2>
-            <pre>"Travel is the only thing you buy that makes you richer."
-            "Adventure awaits."</pre>
-        </div>
-
-        <div>
-            <h2><u>Travel Tips</u></h2>
-            <ul>
-                
-                <li>Carry important documents.</li>
-                <li>Pack light.</li>
-                <li>Drink water regularly.</li>
-                <li>Keep emergency contacts.</li>
-            </ul>
-        </div>
-
-        <div>
-            {text}
-            <h2><u>Top Places to Visit</u></h2>
-            <ol>
-                <li>Paris</li>
-                <li>Dubai</li>
-                <li>Switzerland</li>
-                <li>Maldives</li>
-                <li>Singapore</li>
-            </ol>
-        </div>
-
-        <div>
-            <h2><u>Contact</u></h2>
-            <p>Email: madhura@gmail.com</p>
-            <p>Phone: 9876543210</p>
-        </div>
-
+    <div class="card">
+        <h3>Taj Mahal, India</h3>
+        <p>Famous as a symbol of love and one of the Seven Wonders of the World.</p>
     </div>
+
+    <div class="card">
+        <h3>Eiffel Tower, France</h3>
+        <p>Known for its unique architecture and beautiful city views.</p>
+    </div>
+
+    <div class="card">
+        <h3>Burj Khalifa, Dubai</h3>
+        <p>The tallest building in the world with amazing observation decks.</p>
+    </div>
+
+    <div class="card">
+        <h3>Great Wall of China</h3>
+        <p>A historic wonder built for protection and stretching thousands of kilometers.</p>
+    </div>
+
+    <div class="card">
+        <h3>Maldives Islands</h3>
+        <p>Popular for luxury resorts, marine life and scenic beaches.</p>
+    </div>
+</section>
+
+<section id="top">
+    <h2>Top Places to Visit</h2>
+
+    <div class="card">
+        <h3>Paris, France</h3>
+        <p>Known for the Eiffel Tower and romantic atmosphere.</p>
+    </div>
+
+    <div class="card">
+        <h3>Dubai, UAE</h3>
+        <p>Famous for luxury lifestyle and Burj Khalifa.</p>
+    </div>
+
+    <div class="card">
+        <h3>Maldives</h3>
+        <p>Popular for beaches, resorts and crystal-clear water.</p>
+    </div>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Travel Gallery</h2>
+
+    <img src="https://images.unsplash.com/photo-1548013146-72479768bada" alt="Taj Mahal">
+
+    <img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f" alt="Eiffel Tower">
+
+    <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090" alt="Burj Khalifa">
+
+    <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d" alt="Great Wall">
+
+    <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd" alt="Maldives">
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p><b>Name:</b> Surya</p>
+    <p><b>Email:</b> surya@gmail.com</p>
+    <p><b>Phone:</b> +91 9876543210</p>
+</section>
 
 </body>
 </html>
