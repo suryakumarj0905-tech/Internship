@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College ERP Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand">College ERP Dashboard</a>
+        <span id="time" class="text-white"></span>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- Sidebar -->
+        <div class="col-md-2 bg-dark text-white p-3 sidebar">
+            <h5>Menu</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item"><a href="#" class="nav-link text-white">Dashboard</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Students</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Faculty</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Attendance</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Fees</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-10 p-4">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <h3>1200</h3>
+                            <p>Students</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-center bg-success text-white">
+                        <div class="card-body">
+                            <h3>85</h3>
+                            <p>Faculty</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-center bg-warning">
+                        <div class="card-body">
+                            <h3>92%</h3>
+                            <p>Attendance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-center bg-danger text-white">
+                        <div class="card-body">
+                            <h3>₹8.5L</h3>
+                            <p>Fees Collected</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+
+    <h3 class="mb-3">Student Details</h3>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Suryakumar</h5>
+                <p class="card-text">
+                    Roll No: 101<br>
+                    Department: MCA<br>
+                    Year: II
+                </p>
+                <button class="btn btn-primary">View Profile</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Antony belix</h5>
+                <p class="card-text">
+                    Roll No: 102<br>
+                    Department: MCA<br>
+                    Year: II
+                </p>
+                <button class="btn btn-success">View Profile</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Sibiraj</h5>
+                <p class="card-text">
+                    Roll No: 103<br>
+                    Department: MCA<br>
+                    Year: II
+                </p>
+                <button class="btn btn-warning text-white">View Profile</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Dhandapani</h5>
+                <p class="card-text">
+                    Roll No: 104<br>
+                    Department: MCA<br>
+                    Year: II
+                </p>
+                <button class="btn btn-warning text-white">View Profile</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+            <div class="row mt-4">
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Notice Board
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Semester Exam starts on July 5.</li>
+                                <li>Hackathon Registration Open.</li>
+                                <li>Library Closed on Sunday.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Student Progress
+                        </div>
+                        <div class="card-body">
+
+                            Attendance
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-success" style="width:92%">
+                                    92%
+                                </div>
+                            </div>
+
+                            Fees Paid
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:78%">
+                                    78%
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
